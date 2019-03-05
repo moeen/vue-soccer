@@ -14,7 +14,10 @@
         :guest-name="match.guest_name"
         :guest-logo="match.guest_logo"
         :guest-goals="match.guest_goal"
-        :time="match.match_time_jalali">
+        :time="match.match_time_jalali"
+        :status="match.status"
+        :current_time="match.current_time"
+        >
       </match-result>
     </div>
   </div>

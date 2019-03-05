@@ -27,6 +27,12 @@
       </p>
     </div>
     <time class="time">{{ time }}</time>
+    <span class="current-time" v-if="status == 'first-time' || status == 'second-time'">
+      {{ current_time }} دقیقهٔ
+    </span>
+    <span class="current-time" v-else-if="status =='half-time'">
+      بین دو نیمه
+    </span>
   </div>
 </template>
 
@@ -41,6 +47,8 @@ export default {
     'guestLogo',
     'guestGoals',
     'time',
+    'status',
+    'current_time',
   ],
 };
 </script>
@@ -88,8 +96,15 @@ export default {
   }
   .time {
     position: absolute;
-    right: 5px;
-    top: 5px;
+    right: 6px;
+    top: 8px;
+  }
+  .current-time {
+    position: absolute;
+    left: 6px;
+    top: 8px;
+    font-size: 0.9rem;
+    color: #FFC107;
   }
 }
 @media (max-width: 920px) {
