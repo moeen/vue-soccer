@@ -123,6 +123,16 @@ export default {
         width: 30px;
       }
     }
+    .time {
+      right: 3px;
+      top: 4px;
+      font-size: 0.75rem;
+    }
+    .current-time {
+      left: 3px;
+      top: 4px;
+      font-size: 0.65rem;
+    }
   }
 }
 @media (max-width: 420px) {
