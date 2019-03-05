@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/vue-soccer/precache-manifest.3f9ba1feed99aa75bf35ce7961259a13.js"
+  "/vue-soccer/precache-manifest.66e31b7c8044c032bf962b3a9d26800c.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "vue-soccer"});

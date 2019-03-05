@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "47d9d6b5599a69544a32",
-    "url": "/vue-soccer/css/app.90789945.css"
+    "revision": "e9495325ce76f3d45738",
+    "url": "/vue-soccer/css/app.4f2a760d.css"
   },
   {
-    "revision": "47d9d6b5599a69544a32",
-    "url": "/vue-soccer/js/app.c87fba25.js"
+    "revision": "e9495325ce76f3d45738",
+    "url": "/vue-soccer/js/app.218a4d07.js"
   },
   {
     "revision": "1283a923e728d92b8e1d",
@@ -112,7 +112,7 @@ self.__precacheManifest = [
     "url": "/vue-soccer/img/logo.55d92094.png"
   },
   {
-    "revision": "d70f247f46377234e7289d449f7deb6e",
+    "revision": "bbdec4ab2bbfbfc29b69ce8f671b6af1",
     "url": "/vue-soccer/index.html"
   },
   {
